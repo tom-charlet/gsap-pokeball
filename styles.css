@@ -1,0 +1,93 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    width: 20%;
+    aspect-ratio: 1/1;
+    transform-origin: center;
+    position: relative;
+}
+
+#global-pokeball-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-origin: center;
+    position: absolute;
+}
+
+#effects-wrapper {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#effects {
+    width: 100%;
+    height: 100%;
+}
+
+#pokeball-wrapper {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#pokeball {
+    width: 100%;
+    height: 100%;
+}
+
+#shadow-ball-container {
+    overflow: hidden;
+    position: relative;
+    overflow: hidden;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#shadow-ball-wrapper {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    width: 180%;
+    height: 180%;
+}
+
+#shadow-ball {
+    width: 100%;
+    height: 100%;
+}
+
+#shadow-base-wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#shadow-base {
+    width: 100%;
+    height: 100%;
+    transform: translateY(50%);
+}
